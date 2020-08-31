@@ -11,7 +11,7 @@ public class P3 {
 		int end = sc.nextInt();
 		int step = sc.nextInt();
 		
-		if(end < start) {
+		if(end < start || step < 1) {
 			System.out.println("Error Input!!");
 		}
 		else {
