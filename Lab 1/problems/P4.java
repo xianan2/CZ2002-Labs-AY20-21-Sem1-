@@ -11,6 +11,8 @@ public class P4 {
 		
 		if (h < 1)
 			System.out.println("Error Input!!");
+		// If-lse statement on whether i is odd or even to concatenate "AA" or "BB" after printing every line
+		// Reduces to one loop only
 		else {
 			for(int i = 1; i <= h; i++) {
 				for(int j = 1; j <= i; j++) {
